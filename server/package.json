@@ -1,0 +1,22 @@
+{
+  "name": "lpudrop",
+  "version": "1.0.0",
+  "description": "lpudrop",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Hritika",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.8.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
