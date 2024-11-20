@@ -15,7 +15,7 @@ app.use(cors());
 app.use(morgan("dev"));
 
 app.get("/hello", (req, res) => {
-  res.send("Hello");
+  res.json({"msg" : "Hello"});
 })
 
 app.use("/api/v1/auth", require("./routes/authRoutes"));
