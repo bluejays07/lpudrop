@@ -2,10 +2,10 @@
   "name": "lpudrop",
   "version": "1.0.0",
   "description": "lpudrop",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js",
-    "start": "nodemon server.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Hritika",
   "dependencies": {
